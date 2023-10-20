@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
 
-  resources :users, only: [:new, :create] #We want to show only the new and create routes.
+  resources :users, only: [:new, :create, :edit, :update] #We want to show only the new and create routes.
 
 end
